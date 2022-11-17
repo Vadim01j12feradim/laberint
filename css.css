@@ -1,0 +1,71 @@
+*{
+    background-image: url("images/a.gif");
+    padding: 0px;
+    background-color:antiquewhite ;
+    color: aliceblue;
+}
+.table{
+    background-image: none;
+    padding: 2px;
+    border-width: 4px;
+    border-radius: 3px;
+    background-color: rgb(0, 255, 234);
+    margin: 7px;
+    color: rgb(0, 113, 75);
+}
+.vamos{
+    padding: 4px;
+    border-radius: 3px;
+    color: black;
+    background-color: beige;
+    background-image: none;
+}
+.vamos:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+#initial{
+    background-image: none;
+    padding: 0px;
+    border-radius: 3px;
+    background-color: rgb(21, 255, 0);
+    margin: 3px;
+    color: rgb(0, 113, 75);
+    display: inline-block;
+}
+.iteration{
+    display: inline-block;
+    background-image: none;
+    padding: 2px;
+    border-width: 4px;
+    border-radius: 3px;
+    background-color: rgb(129, 127, 2);
+    box-shadow: 0px 6px 12px 19px ;
+    margin: 7px;
+    color: rgb(0, 140, 255);
+    border-style:inset;
+}
+.solution{
+    display: inline-block;
+    background-image: none;
+    padding: 2px;
+    border-width: 4px;
+    border-radius: 3px;
+    background-color: rgb(255, 0, 255);
+    margin: 7px;
+    color: rgb(21, 255, 0);
+    box-shadow: 0px 0px 9px 7px ;
+    border-style: double;
+}
+.solution:hover{
+    background-color: aqua;
+    border-width: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+.iteration:hover{
+    background-color: rgb(255, 0, 179);
+    box-shadow: 0px 0px 20px 4px ;
+    color: black;
+    cursor: pointer;
+}
